@@ -91,8 +91,8 @@ function limpa()
 				<td><input type="text" name="tel" value="" size="12" maxlength="12"></td>
 			</tr>	
 			<tr>
-				<td><input type="button" value="Limpar"  onClick="limpa()"/></td>
-				<td><input type="submit" value="enviar"></td>
+				<td></td>
+				<td><input type="submit" value="Enviar">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Limpar"  onClick="limpa()"/></td>
 			</tr>			
 		
 		
