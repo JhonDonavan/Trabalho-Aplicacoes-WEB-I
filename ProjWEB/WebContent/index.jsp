@@ -7,11 +7,11 @@
 <title>Bem vindo</title>
 </head>
 <body>
-<h1>Meunu inicial</h1>
+<h1>Menu inicial</h1>
 
 <br></br>
 <a href="ExibirClientes">Clientes</a>
 <br><br>
-<a href="ExibirJoia.jsp">Joias</a>
+<a href="ExibirJoias">Joias</a>
 </body>
 </html>
