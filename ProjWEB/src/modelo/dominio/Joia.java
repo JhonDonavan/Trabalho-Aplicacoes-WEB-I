@@ -1,17 +1,17 @@
 package modelo.dominio;
 
 public class Joia {
-	private int id;
-	private float preco;
+	private String id;
+	private String preco;
 	private String tipo;
 	private String genero;
-	private int quantidade;
+	private String quantidade;
 
 	public Joia(){
 		super();
 	}
 
-	public Joia(int id, float preco, String tipo, String genero, int quatidade) {
+	public Joia(String id, String preco, String tipo, String genero, String quantidade) {
 		super();
 		this.id = id;
 		this.preco = preco;
@@ -20,21 +20,18 @@ public class Joia {
 		this.quantidade = quantidade;
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
-	public float getPreco() {
+	public String getPreco() {
 		return preco;
 	}
 
-	public void setPreco(float preco) {
-		this.preco = preco;
-	}
 
 	public String getTipo() {
 		return tipo;
@@ -52,19 +49,21 @@ public class Joia {
 		this.genero = genero;
 	}
 
-	public int getQuantidade() {
+	public String getQuantidade() {
 		return quantidade;
 	}
 
-	public void setQuantidade(int quantidade) {
+	public void setQuantidade(String quantidade) {
 		this.quantidade = quantidade;
 	}
+
+	
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + id;
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		return result;
 	}
 
@@ -77,7 +76,10 @@ public class Joia {
 		if (getClass() != obj.getClass())
 			return false;
 		Joia other = (Joia) obj;
-		if (id != other.id)
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
 			return false;
 		return true;
 	}

@@ -1,7 +1,8 @@
 package modelo.dominio;
 
 public class Cliente {
-	private String nome, cpf, email, end, tel;
+	private String nome, cpf, email, end;
+	private String tel;
 	
 	
 	public Cliente(){
@@ -9,7 +10,7 @@ public class Cliente {
 	}
 	
 	
-	public Cliente(String nome, String cpf, String tel, String email, String end) {
+	public Cliente(String nome, String cpf,String tel, String email, String end){
 		super();
 		this.nome = nome;
 		this.cpf = cpf;
@@ -69,7 +70,7 @@ public class Cliente {
 
 
 	
-	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;

@@ -9,11 +9,11 @@
 </head>
 <body>
 <%
-	String id = request.getParameter("id2");
-	String preco = request.getParameter("preco2");
+	String id = request.getParameter("id");
+	String preco = request.getParameter("preco");
 	String tipo = request.getParameter("tipo");
 	String genero = request.getParameter("genero");
-	String quantidade = request.getParameter("qtd");
+	String quantidade = request.getParameter("quantidade");
 %>
 
 <jsp:useBean id="joia" class="modelo.dominio.Joia" scope="request"></jsp:useBean>

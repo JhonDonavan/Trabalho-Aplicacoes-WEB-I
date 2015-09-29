@@ -50,12 +50,12 @@ public class ServletSalvarCadastroJoia extends HttpServlet {
 		//Conversão de tipos de dados. Como só recebemos dados em String
 		//alguns dados é precisao converter novamente e passar os novos dados
 		//como parametro ao instanciar o objeto
-		int id2 = ParseInteger("id");
-		float preco2 = ParseFloat("preco");
-		int qtd = ParseInteger("qtd");
+		//int id2 = ParseInteger("id");
+		//float preco2 = ParseFloat("preco");
+		//int qtd = ParseInteger("qtd");
 		
 		
-		Joia joia = new Joia(id2, preco2, tipo, genero, qtd);
+		Joia joia = new Joia(id, preco, tipo, genero, quantidade);
 		
 		boolean dadosOK;
 		String pagina = null;

@@ -48,8 +48,9 @@ public class ServletSalvarCadastro extends HttpServlet {
 		String email = request.getParameter("email");
 		String end = request.getParameter("end");
 		
-		
-		
+		//converter tel para inteiro
+		//
+		//		
 		
 		Cliente cliente = new Cliente(nome, cpf, tel, email, end);
 		
@@ -90,6 +91,11 @@ public class ServletSalvarCadastro extends HttpServlet {
 	
 	
 	
+	}
+
+	private int ParceInteger(String string) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	
