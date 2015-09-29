@@ -24,8 +24,8 @@
 			<td>Quantidade</td>
 		</tr>
 		<tr>
-			<td><a href="AlterarCadastroJoias">Alterar</a><br>
-			<a href="ExcluirCadastroJoias">Excluir</a></td>
+			<td><a href="AlterarCadastroJoia">Alterar</a><br>
+			<a href="ExcluirCadastroJoia">Excluir</a></td>
 			<td></td>
 			<td></td>
 			<td></td>
