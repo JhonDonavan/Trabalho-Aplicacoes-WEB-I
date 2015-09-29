@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h3>Lista de Clientes</h3>
-	Opções:<a href="AbrirCadastro">Incluir Cliente</a>
+	Opções:<a href="AbrirCadastro">Incluir Cliente</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="VoltarIndex">Menu Inicial</a>
 	<br>
 	<br>
 	
