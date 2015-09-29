@@ -9,7 +9,7 @@
 <body>
 
 	<h3>Lista de jóias</h3>
-	Opções:<a href="AbrirCadastroJoias">Incluir Jóias</a>
+	Opções:<a href="AbrirCadastroJoia">Incluir Jóias</a>
 	<br>
 	<br>
 	

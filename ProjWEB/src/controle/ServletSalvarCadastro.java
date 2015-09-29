@@ -33,7 +33,7 @@ public class ServletSalvarCadastro extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		// CRIAR UM DESPACHANTE PARA CHAMAR A PÁGINA JSP
-				
+			response.sendError(403, "NÃO É POSSIVEL ACESSAR VIA METODO GET!");	
 	}
 
 	/**
